@@ -2,10 +2,15 @@
 
 body {
     background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-weight: bold;
+}
+
+.myBio {
+  ;
 }
 
 .footer {
