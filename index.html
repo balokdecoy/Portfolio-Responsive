@@ -6,48 +6,62 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johnnie Simpson - Homepage</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#" style="padding-right: 20px;">Johnnie Simpson</a>
+        <a class="navbar-brand" href="./index.html" style="padding-right: 20px;">Johnnie Simpson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="#">Portfolio</a>
             <a class="nav-link" href="#">Contact Me</a>
           </div>
         </div>
     </nav>
 
-    <section class="container">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8">
                 <h1>Hello, World.</h1>
+                <div class="row">
+                    <div class="col-md-10">
+                        <p class="myBio">
+                            Welcome to my portfolio! I'm Johnnie Simpson, an emerging web developer from 
+                            Baltimore, Maryland. I am currently enrolled in the George Washington University 
+                            Full Stack Coding Bootcamp. I have a B.A. in English Language and Literature from
+                            the University of Maryland, but my professional background over the past several years
+                            has mostly been in accounting. My passion, however, is coding and development. I am 
+                            working towards a professional certificate in full stack development, and I plan to
+                            leverage my diverse skillset to bring clarity, precision, and passion to the web
+                            development industry. 
+                            <br>
+                            <br>
+                            Thank you for visiting my site. Feel free to explore my projects by clicking
+                            on the Portfolio tab. You can reach me directly at the Contact Me tab. 
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="col-6">
-                <p class="myBio">
-                    Welcome to my portfolio! I'm Johnnie Simpson, an emerging web developer from 
-                    Baltimore, Maryland. I am currently enrolled in the George Washington University 
-                    Full Stack Coding Bootcamp. I have a B.A. in English Language and Literature from
-                    the University of Maryland, but my professional background over the past several years
-                    has mostly been in accounting. My passion, however, is coding and development. I am 
-                    working towards a professional certificate in full stack development, and I plan to
-                    leverage my diverse skillset to bring clarity, precision, and passion to the web
-                    development industry. 
-                    <br>
-                    <br>
-                    Thank you for visiting my site. Feel free to explore my projects by clicking
-                    on the Portfolio tab. You can reach me directly at the Contact Me tab. 
-                </p>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body" style="background-color: beige;">
+                      <h5 class="card-title">Social Media</h5>
+                      <p class="card-text">
+                        <button onclick="location.href='https://github.com/balokdecoy'" style="font-size:48px"><i class="fa fa-github"></i></button>
+                        <button style="font-size:48px"><i class="fa fa-stack-overflow" style="color:orange"></i></button>
+                      </p>
+                    </div>
+                  </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <footer class="footer">
         <p>&copy;Johnnie Simpson, November 2020</p>
