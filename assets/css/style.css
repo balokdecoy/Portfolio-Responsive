@@ -5,6 +5,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#myBio {
+  font-size: large;
+}
+
 h1 {
     font-weight: bold;
 }
