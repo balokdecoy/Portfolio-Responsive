@@ -1,13 +1,14 @@
 /* Main style sheet */
 
 body {
-    background-color: lightgrey;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0c75e;
+    font-family: 'Roboto';
 }
 
 #myBio {
-  font-size: large;
+  font-size: 20px;
   padding-top: 20px;
+  font-weight: bold;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h1 {
 }
 
 @media screen and (max-width:460px){
-  footer{
+  footer {
     display: none;
   }
 }
