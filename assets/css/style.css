@@ -1,8 +1,9 @@
 /* Main style sheet */
 
 body {
-    background-color: #f0c75e;
+    background-color: black;
     font-family: 'Roboto';
+    color: whitesmoke;
 }
 
 #myBio {
