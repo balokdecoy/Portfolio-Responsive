@@ -4,6 +4,7 @@ body {
     background-color: black;
     font-family: 'Roboto';
     color: whitesmoke;
+    margin-bottom: 60px;
 }
 
 #myBio {
@@ -17,6 +18,7 @@ h1 {
 }
 
 .footer {
+  background-color: grey;
   position: fixed;
   left: 0;
   bottom: 0;
