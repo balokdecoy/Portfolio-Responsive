@@ -18,18 +18,9 @@ h1 {
 
 .footer {
   position: fixed;
-  padding: 10px;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: gray;
   color: white;
   text-align: center;
-  font-size: smaller;
-}
-
-@media screen and (max-width:460px){
-  footer {
-    display: none;
-  }
 }
