@@ -25,8 +25,8 @@ Amir Ashtiany for feedback and collaboration on the finer points of Bootstrap la
 
 Acknowledgments:
 
-The application uses Bootstrap CDN grid layout and design elements. https://fontawesome.com/ 
+The application uses Bootstrap CDN grid layout and design elements. https://getbootstrap.com/
 
-The application uses the Font Awesome icon toolkit for social media buttons on the homepage. https://getbootstrap.com/
+The application uses the Font Awesome icon toolkit for social media buttons on the homepage. https://fonts.google.com/ 
 
 The application uses the 'Roboto' typeface, created by Google and provided via Google Fonts. https://fonts.google.com/ 
