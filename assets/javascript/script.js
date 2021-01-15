@@ -9,6 +9,17 @@ $(document).ready(function () {
             window.open('https://balokdecoy.github.io/AceOfPentacles/')
         })
     };
+    function weatherApp() {
+        $('#weatherCode').click(function (e) { 
+            e.preventDefault();
+            window.open('https://github.com/balokdecoy/weather-app');
+        });
+        $('#weatherApp').click(function (e) {
+            e.preventDefault();
+            window.open('https://balokdecoy.github.io/weather-app/')
+        })
+    };
     project1();
+    weatherApp();
 });
 
