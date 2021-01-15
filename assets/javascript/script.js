@@ -7,7 +7,7 @@ $(document).ready(function () {
         $('#project1App').click(function (e) {
             e.preventDefault();
             window.open('https://balokdecoy.github.io/AceOfPentacles/')
-        })
+        });
     };
     function weatherApp() {
         $('#weatherCode').click(function (e) { 
@@ -17,9 +17,20 @@ $(document).ready(function () {
         $('#weatherApp').click(function (e) {
             e.preventDefault();
             window.open('https://balokdecoy.github.io/weather-app/')
-        })
+        });
+    };
+    function passwordApp() {
+        $('#passwordCode').click(function (e) { 
+            e.preventDefault();
+            window.open('https://github.com/balokdecoy/password-generator');
+        });
+        $('#passwordApp').click(function (e) {
+            e.preventDefault();
+            window.open('https://balokdecoy.github.io/password-generator/')
+        });
     };
     project1();
     weatherApp();
+    passwordApp();
 });
 
