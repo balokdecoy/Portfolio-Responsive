@@ -29,8 +29,19 @@ $(document).ready(function () {
             window.open('https://balokdecoy.github.io/password-generator/')
         });
     };
+    function burgerApp() {
+        $('#burgerCode').click(function (e) { 
+            e.preventDefault();
+            window.open('https://github.com/balokdecoy/burger');
+        });
+        $('#burgerApp').click(function (e) {
+            e.preventDefault();
+            window.open('https://johnnie-burger.herokuapp.com/')
+        });
+    }
     project1();
     weatherApp();
     passwordApp();
+    burgerApp();
 });
 
